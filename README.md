@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 🌌 GravitéLab
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**GravitéLab** is an open-source physics simulation platform built with **React**, **Three.js**, and **TensorFlow.js**, designed to visualize and experiment with the laws of gravity and motion — starting from Newtonian mechanics to advanced gravitational anomalies.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🌍 **Universal Gravitation Simulator** — interactive force, mass, and distance visualization  
+- 🛰️ **Mercury Orbit Anomaly** — simulate precession and Newtonian breakdown  
+- 🔮 **ML-based Prediction Engine** — TensorFlow.js for orbit path prediction and anomaly detection  
+- 🎮 **Interactive 3D Canvas** — WebGL + Three.js-powered real-time rendering  
+- 🧪 **Modular Experiments** — plug-and-play simulation modules with visual sliders  
+- 🔁 **N-body chaos and instability modeling** (coming soon)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🧰 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** (UI Framework)
+- **Three.js / react-three-fiber** (3D Visualization)
+- **TensorFlow.js** (Machine Learning)
+- **Zustand / Context API** (State Management)
+- **WebGL** (Graphics Hardware Acceleration)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧪 Current Experiments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Module                  | Description                     |
+|-------------------------|---------------------------------|
+| UniversalGravitation    | Newton's Law \( F = G \frac{m_1 m_2}{r^2} \)  
+| MercuryOrbitAnomaly     | Elliptical precession simulator  
+| NBodyChaos (planned)    | 3+ body gravitational chaos  
+| LightSpeedGravity (planned) | Propagation delay visualization  
+| GhostGravity (planned)  | Dark matter field simulation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📦 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/subhajit7252/Gravit-Lab
+cd gravite-lab
+npm install
+npm start
